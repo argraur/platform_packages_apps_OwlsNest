@@ -19,4 +19,10 @@
         android:title="@string/force_ambient_for_media_title"
         android:defaultValue="true" />
 
+    <com.aosip.owlsnest.preference.SystemSettingSwitchPreference
+        android:key="force_ambient_for_media_hide_artist"
+        android:title="@string/force_ambient_for_media_hide_artist_title"
+        android:defaultValue="false"
+        android:dependency="force_ambient_for_media" />
+
 </PreferenceScreen>
